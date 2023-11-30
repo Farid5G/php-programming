@@ -1,0 +1,27 @@
+In php array can hold multiple data-types of values in it
+types of the arrays are 
+1. index array - normal arrays
+$a = ['farid', 18,'computer'];
+2. associative array - key => values
+$farid_det  = [
+    'name' => 'farid',
+    'address' => 'Mumbra'];
+3. combine arrays - both general as well as associative array
+
+**how to add a new value to the array**
+array_name ['key'] = [value];
+$farid_det  ['department'] = ['computer']
+
+** update the value in the array**
+$farid_det['name'] = 'farid khan';
+print_r($farid_det);
+var_dump($farid_det)
+
+**difference between var_dump and print_r**
+
+Output Format:
+
+var_dump() displays detailed information about variables, including their type, value, and size. It also shows the structure of complex data types like arrays and objects. The output is intended for developers and can be quite verbose.
+print_r() is designed to provide a more readable representation of variables. It displays the values of variables and their structure, especially for arrays and objects. The output is generally more concise and suitable for quick inspection.
+
+In summary, var_dump() is more evrbose and provides detailed information about variables, while print_r() offers a more concise and human-readable representation. You can choose the appropriate function based on the level of detail you need for debugging or inspecting variables in your PHP code.

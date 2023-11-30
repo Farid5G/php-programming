@@ -1,0 +1,8 @@
+Open the file using fopen() in read mode.
+Check if the file was opened successfully.
+Enter a while loop that continues until the end of the file is reached (feof() returns true).
+Read a line from the file using fgets() and assign it to the $line variable.
+Output the line using echo.
+You can perform additional operations on each line within the loop if needed.
+Close the file using fclose() to release system resources.
+Display an error message if the file cannot be opened.
